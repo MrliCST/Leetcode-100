@@ -22,3 +22,6 @@ class Solution:
         
         backtrack(0)
         return ans
+nums = list(map(int,input().split()))
+s = Solution()
+print(s.threeSum(nums))
